@@ -11,7 +11,6 @@
   inputs.src-noaa-master.ref   = "refs/heads/master";
   inputs.src-noaa-master.owner = "achesak";
   inputs.src-noaa-master.repo  = "nim-noaa";
-  inputs.src-noaa-master.dir   = "";
   inputs.src-noaa-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
